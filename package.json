@@ -1,15 +1,15 @@
 {
-  "name"        : "metalsmith-raw",
-  "version"     : "0.1.0",
-  "description" : "Metalsmith plugin to include raw file contents in templates.",
-  "main"        : "index.js",
-  "scripts"     : {
-    "deploy"     : "npm version minor -m \"Update version to %s\" ",
-    "postdeploy" : "git push && git push --tags"
+  "name": "metalsmith-raw",
+  "version": "0.2.0",
+  "description": "Metalsmith plugin to include raw file contents in templates.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npm version minor -m \"Update version to %s\" ",
+    "postdeploy": "git push && git push --tags"
   },
   "repository": {
-    "type" : "git",
-    "url"  : "git+https://github.com/themadcreator/metalsmith-raw.git"
+    "type": "git",
+    "url": "git+https://github.com/themadcreator/metalsmith-raw.git"
   },
   "keywords": [
     "metalsmith",
@@ -19,7 +19,7 @@
     "load",
     "read"
   ],
-  "author"  : "themadcreator@github",
-  "license" : "Apache-2.0",
+  "author": "themadcreator@github",
+  "license": "Apache-2.0",
   "homepage": "https://github.com/themadcreator/metalsmith-raw#readme"
 }
